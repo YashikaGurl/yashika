@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Section</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="comments.html">Comments</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="comment-container">
+        <h2>Leave a Comment</h2>
+        <input type="text" id="nameInput" placeholder="Your Name" />
+        <textarea id="commentInput" placeholder="Write your comment here..."></textarea>
+        <button id="submitComment">Post Comment</button>
+
+        <div id="commentSection">
+            <h3>Comments</h3>
+            <ul id="commentsList"></ul>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
